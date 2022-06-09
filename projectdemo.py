@@ -44,7 +44,7 @@ st.write(ser)
 
 st.subheader('Prediction')
 #st.write(ser[prediction])
-st.write(ser)
+st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
