@@ -38,9 +38,9 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-st.write(0='setosa', 
-         1='versicolor', 
-         2='virginica')
+st.write(0=='setosa', 
+         1=='versicolor', 
+         2=='virginica')
 
 st.subheader('Prediction')
 #st.write['setosa', 'versicolor', 'virginica'][prediction]
