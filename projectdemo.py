@@ -28,8 +28,8 @@ st.subheader('User Input parameters')
 st.write(df)
 
 iris = pd.read_csv(https://raw.githubusercontent.com/fatinsyahiraanuar/hello-june-2022/main/IRIS.csv)
-X = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
-Y = ['species']
+X = iris.['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+Y = iris.['label']
 
 clf = RandomForestClassifier()
 clf.fit(X, Y)
@@ -42,7 +42,7 @@ st.write('setosa', 'versicolor', 'virginica')
 
 st.subheader('Prediction')
 st.write(iris.target_names[prediction])
-st.write(prediction)
+#st.write(prediction)
 
-#st.subheader('Prediction Probability')
+st.subheader('Prediction Probability')
 st.write(prediction_proba)
