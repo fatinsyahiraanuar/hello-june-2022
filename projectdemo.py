@@ -8,6 +8,8 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
+st.image('https://miro.medium.com/max/700/1*uo6VfVH87jRjMZWVdwq3Vw.png', caption='Species of Iris flower')
+
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
